@@ -1,6 +1,6 @@
 # Site settings
 title: Nick Ginther's Place
-baseurl: ""
+baseurl: "/experiences"
 url: "http://nginth.github.io"
 
 # Build settings
