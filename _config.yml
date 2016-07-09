@@ -1,7 +1,6 @@
 # Site settings
 title: Nick Ginther's Place
 baseurl: ""
-url: "http://localhost:4000"
 
 # Build settings
 kramdown:
