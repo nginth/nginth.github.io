@@ -1,6 +1,7 @@
 # Site settings
 title: Nick Ginther's Place
 baseurl: ""
+url: "http://nginth.github.io"
 
 # Build settings
 kramdown:
