@@ -6,6 +6,7 @@ url: "http://nginth.github.io"
 # Build settings
 kramdown:
   input: GFM
+  parse_block_html: true
 permalink: pretty
 
 # Third-party services
