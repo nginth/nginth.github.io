@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why you should make your code modular (aka Don't Forget Your Intro to Programming Class)"
-date:   2016-093-0 8:54:34 -0500
+date:   2016-09-03 8:54:34 -0500
 ---
 I write this post in solidarity for my sisters and brothers who, like me, make a mistake every once in a while (read: every day). 
 
