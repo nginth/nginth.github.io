@@ -84,6 +84,8 @@ private static void addToCourse(List<CanvasProfile> who) {
 }
 ```
 
+and the test class:
+
 
 ```java
 public static void testCreateCanvasCourse() {
@@ -108,7 +110,7 @@ public static void testAddToCourse() {
 }
 ```
 
-I just factored out the meat of `createCourse()` into 3 separate methods that I could all call separately outside of the context of this future method. That's it. I've been programming for how many years and this thing I learned on the 2nd day of class my sophomore year of high school fixed this seemingly complex problem.
+I factored out the meat of `createCourse()` into 3 separate methods that I could all call separately outside of the context of this future method. That's it. I've been programming for how many years and this thing I learned on the 2nd day of class my sophomore year of high school fixed this seemingly complex problem.
 
 
 So what, ultimately, did I learn from this experience? The advice you get in your Intro to Programming class still applies even when you think you're past the point of having to think about the basics like that. It also taught me a bit of humility, as I debate whether to even post this because it shouldn't have even been an issue in the first place. 
