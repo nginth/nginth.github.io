@@ -1,7 +1,2 @@
-# slim
-
-slim is just a slim jekyll theme. [Demo](http://syaning.com/slim).
-
-### License
-
-MIT
+# nginth.github.io
+This is my personal website/blog. It uses the [Jekyll](https://jekyllrb.com/) theme [slim](https://github.com/syaning/slim).
