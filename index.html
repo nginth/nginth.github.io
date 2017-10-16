@@ -1,21 +1,13 @@
 ---
-layout: default
+layout: home
 ---
-<div class="home">
-	<section>
-		<h2 class="smallcap">about</h2>
-		<p>Hello, I'm Nick. You can find the stuff that interests me on my <a href="https://github.com/nginth/">Github</a> or at my blog down ↓ there. Also, check out my <a href="https://www.linkedin.com/in/nick-ginther-62562abb">LinkedIn</a> and my <a href="http://nickginther.computer/2016/07/09/about-me/">about me.</a></p>
-	</section>
-	<section>
-		<h2 class="smallcap">posts</h2>
-		<ul class="post-list">
-			{% for post in site.posts limit:5 %}
-			<li>
-				<span>{{ post.date | date: "%b %d, %Y" }}</span>
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</li>
-			{% endfor %}
-		</ul>
-		<p><a href="{{ "/archives/" | prepend: site.baseurl }}">view more...</a></p>
-	</section>
-</div>
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, a Computer Science student at the University of Texas at Austin.</h3>
+	  {% include social.html %}
+	</div>
+</section>
