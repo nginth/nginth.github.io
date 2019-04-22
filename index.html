@@ -1,13 +1,47 @@
----
-layout: home
----
-
-<section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, a Computer Science student at the University of Texas at Austin.</h3>
-	  {% include social.html %}
-	</div>
-</section>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Nick Ginther</h1>
+      <h3>Software Engineer</h3>
+      <h3>Graduate of University of Texas Computer Science - 2018</h3>
+    </header>
+    <main>
+      <p>
+        Hi, I'm Nick. I'm a Software Engineer currently working for IBM Systems
+        in Austin, TX. My tech interests include back-end web, real-time
+        messaging systems, and operating systems. My non-tech interests include
+        getting outside, basketball, drawing, weightlifting, and video
+        production.
+      </p>
+      <p>
+        You can see some of my projects on
+        <a href="https://github.com/nginth">my GitHub.</a>
+      </p>
+      <p>Check out <a href="resume.pdf">my resume.</a></p>
+      <p>
+        Reach me on
+        <a href="https://www.linkedin.com/in/nginth/">my LinkedIn.</a>
+      </p>
+      <div>
+        <h4>Selected Projects:</h4>
+        <ul>
+          <li>
+            <a href="https://github.com/nginth/go-8">Go-8</a>: a CHIP-8 emulator
+            written in Go.
+          </li>
+          <li>
+            <a href="https://github.com/nginth/cowell">cowell</a>: a
+            cross-platform music streaming search engine.
+          </li>
+          <li>
+            <a href="https://github.com/nginth/hubot-plotw">hubot-plotw</a>: A
+            Spotify playlist of the week manager for Hubot.
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
