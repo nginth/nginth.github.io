@@ -1,2 +1,3 @@
-# [nickginther.computer](nickginther.computer)
+# [nickginther.computer](http://nickginther.computer)
 My personal website.
+
